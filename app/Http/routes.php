@@ -11,9 +11,21 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
+Route::get('/', 'HomeController@home');
+Route::get('home', 'HomeController@home');
+Route::get('about', 'HomeController@about');
+Route::get('contact', 'ContactController@getContact');
+Route::post('contact', 'ContactController@postContact');
+
+Route::group(['prefix' => 'services'], function () {
+    Route::get('all', 'ServicesController@home');
+    Route::get('import', 'ImportController@index');
+    Route::get('import/catalog', 'ImportController@catalog');
+    Route::get('export', 'ServicesController@export');
+    Route::get('courses', 'ServicesController@courses');
 });
+
+
 
 /*
 |--------------------------------------------------------------------------

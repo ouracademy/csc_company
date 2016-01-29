@@ -3254,7 +3254,9 @@ blockquote:before {
 
 #owl-main .item {
 	/*height: 44vh;*/
-	height: 90vh;
+	height: 50vh;
+	background-color: #FFF;
+	background-position: center 40%;
 
 }
 #owl-main.height-md .item {

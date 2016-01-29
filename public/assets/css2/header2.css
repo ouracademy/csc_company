@@ -1,0 +1,18 @@
+.yamm .container{
+    width:80%;
+    background:white;
+    /*margin-bottom:-50;*/
+    /*display:block;*/
+}
+hero{
+    background:yellow;
+    height:650px;
+}
+
+#owl-main{
+    background:black;
+    height:600px;
+}
+#owl-main .item{
+    height:800px;
+}

@@ -1,6 +1,7 @@
 @extends('layout')
 @section('title','Inicio')
 @section('content')
+
 <section id="hero">
     <div id="owl-main" class="owl-carousel height-md owl-inner-nav owl-ui-lg">
 

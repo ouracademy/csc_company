@@ -16,12 +16,16 @@ class ServicesController extends Controller
 	
     public function export()
     {
-        return view('');
+        return view('import');
     }
     
     public function courses()
     {
-        return view('');
+        return view('courses');
     }
-}
+    
+    public function home()
+    {
+        return view('import');
+    }
 }

@@ -1,7 +1,6 @@
 @extends('layout')
 @section('title','Inicio')
 @section('content')
-
 <section id="hero">
     <div id="owl-main" class="owl-carousel height-md owl-inner-nav owl-ui-lg">
 
@@ -308,20 +307,25 @@
                 <div class="col-sm-12">
 
                     <div class="col-sm-4">
-                        <div class="partner">
-                            <img src="assets/images/partners/radio-capital.png" alt="">
-                        </div>
+                        <a href="http://www.capital.com.pe/">
+                            <div class="partner">
+                                <img src="assets/images/partners/radio-capital.png" alt="Radio Capital">
+                            </div>
+                        </a>
                     </div>
                     <div class="col-sm-4">
-                        <div class="partner">
-
-                            <img src="assets/images/partners/radio-san-borja.png" alt="">
-                        </div>
+                        <a href="http://www.radiosanborja.com/">
+                            <div class="partner">
+                                <img src="assets/images/partners/radio-san-borja.png" alt="Radio San Borja">
+                            </div>
+                        </a>
                     </div>
                     <div class="col-sm-4">
-                        <div class="partner">
-                            <img src="assets/images/partners/sumate-al-exito.png" alt="">
-                        </div>
+                        <a href="http://www.sumatealexito.com/">
+                            <div class="partner">
+                                <img src="assets/images/partners/sumate-al-exito.png" alt="Súmate al éxito">
+                            </div>
+                        </a>
                     </div>
 
 

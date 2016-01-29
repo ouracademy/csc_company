@@ -2,26 +2,32 @@
 			<div class="container inner">
 				<div class="row">
 					<div class="col-md-6 col-sm-6 inner">
-						<h4>Mantente en contácto</h4>
-						<p>Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.</p>
-						<ul class="contacts">
-							<li><i class="icon-s-facebook"></i> 84 Street, City, State 24813</li>
-							<li><i class="icon-s-facebook"></i> +00 (123) 456 78 90</li>
-							<li><a href="#"><i class="icon-s-facebook"></i> info@reen.com</a></li>
-						</ul><!-- /.contacts -->
-					</div><!-- /.col -->
+						<h4>Quiénes somos</h4>
+						<p>Somos una empresa dedicada al comercio exterior con
+						5 años de experiencia en este rubro. Exportamos e
+						Importamos diversos productos con valor agregado de
+						Estados Unidos y Asia, además brindamos cursos y
+						capacitaciones para emprendedores.</p>
+						<a href="{{url('about')}}" class="txt-btn">Conócenos</a>
+					</div>
 					
 					<div class="col-md-6 col-sm-6 inner">
-						
+						<h4>Mantente en contácto</h4>
+						<div class="social-network">
+							<ul class="social">
+								<li><a href="#"><i class="icon-s-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-s-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-s-linkedin"></i></a></li>
+							</ul><!-- /.social -->
+						</div>
 						<p>Puede ponerse en contacto con nosotros en nuestras redes sociales. Envíenos sus dudas, consejos y quejas. Estaremos agradecidos con responderle y ofrecerle un mejor servicio.</p>
-						<a href="about.html" class="txt-btn">Mas información sobre nosotros</a>
 					</div><!-- /.col -->
 				</div><!-- /.row --> 
 			</div><!-- .container -->
 		  
 			<div class="footer-bottom">
 				<div class="container inner">
-					<p class="pull-left">@2015 CSC Company - Diseñado por <a href="https://www.facebook.com/Ouracademy-661881453944170/?fref=ts">Ouracademy</a>, grupo de artesanos de software</p>
+					<p class="pull-left">@2016 CSC Company - Diseñado por <a href="https://www.facebook.com/Ouracademy-661881453944170/?fref=ts">Ouracademy</a>, grupo de artesanos de software</p>
 					<ul class="footer-menu pull-right">
 						<li><a href="{{url('home')}}">Inicio</a></li>
 						<li><a href="{{url('about')}}">Nosotros</a></li>

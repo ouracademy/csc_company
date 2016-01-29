@@ -11,10 +11,10 @@ class ImportController extends Controller
 {
     public function index()
     {
-        return view('about');
+        return view('import');
     }
      public function catalog()
     {
-        return view('about');
+        return view('catalog');
     }
 }

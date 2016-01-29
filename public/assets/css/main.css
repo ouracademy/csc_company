@@ -221,7 +221,6 @@ footer ul.contacts li {
 .social-network {
 	position: relative;
 	z-index: 0;
-	padding-top: 25px;
 }
 .social-network .social li {
 	display: table-cell;
@@ -234,7 +233,7 @@ footer ul.contacts li {
 #hero h1 {
 	font-size: 78px;
 	line-height: 110%;
-	font-weight: 700;
+	font-weight: 900;
 	letter-spacing: .05em;
 	text-transform: uppercase;
 	margin-bottom: 0;
@@ -314,8 +313,8 @@ main header + * {
 	margin-top: 35px !important;
 }
 .inner {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 120px;
+	padding-bottom: 120px;
 }
 .inner-md {
 	padding-top: 100px;
@@ -339,7 +338,7 @@ main header + * {
 	padding-top: 80px;
 }
 .inner-top-xs {
-	padding-top: 10px;
+	padding-top: 40px;
 }
 .inner-bottom {
 	padding-bottom: 120px;
@@ -1337,7 +1336,8 @@ aside .thumb figure {
 	max-width: 300px;
 }
 .navbar-brand img {
-	max-height: 50px;
+	max-height: 55px;
+	
 }
 .navbar-header .navbar-brand {
 	display: none;
@@ -1356,11 +1356,11 @@ aside .thumb figure {
 	height: 40px;
 }
 .navbar-collapse {
-    position: relative;
-    background-color: #FFF;
+    /*position: relative;*/
+    background-color: white;
 	width: 100%;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 0;
 	border-bottom: 1px solid #E6E9ED;
 }
 .navbar-collapse.collapse.stuck {
@@ -1376,11 +1376,12 @@ aside .thumb figure {
 	max-height: 20px;
 }
 .navbar-nav {
-	float: none;
+	float: right;
 	display: table-cell;
 	vertical-align: middle;
-	padding-left: 500px;
+	padding-left: 30px;
     margin: 0;
+    /*background:black;*/
 }
 .navbar-nav > li > a {
 	font-size: 15px;
@@ -1454,8 +1455,9 @@ aside .thumb figure {
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) li a:hover,
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) li a.active {
     filter: none;
-    background-color: #F5F7FA;
+    /*background-color: #F5F7FA;*/
     color: #1ABB9C;
+    
 }
 .navbar .nav .open > a,
 .navbar .nav .open > a:hover,
@@ -1893,8 +1895,8 @@ p .btn {
 	margin-left: 15px;
 }
 .txt-btn {
-	font-size: 90%;
-	font-weight: 680;
+	font-size: 105%;
+	font-weight: 700;
 }
 .txt-btn:after {
 	font-family: 'fontello';
@@ -3251,16 +3253,13 @@ blockquote:before {
 }
 
 #owl-main .item {
-	height: 44vh;
-	background-color: #FFF;
-	background-position: center 55%;
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-		 -o-background-size: cover;
-			background-size: cover;
+	/*height: 44vh;*/
+	height: 90vh;
+
 }
 #owl-main.height-md .item {
-	height: 61vh;
+	/*height: 60vh;*/
+	height: 90vh;
 }
 #owl-main.height-lg .item {
 	height: 90vh;
@@ -4762,8 +4761,7 @@ input:focus:-ms-input-placeholder {
 
 @media (min-width: 1025px) {
 	.navbar-collapse.collapse {
-		padding-bottom: 15px;
-		padding-top: 15px;
+		padding-bottom: 30px;
 	}
 }
 
@@ -5988,7 +5986,7 @@ input:focus:-ms-input-placeholder {
 	}
 	
 	#hero h1 {
-		font-size: 48px;
+		font-size: 60px;
 		line-height: 115%;
 	}
 	
@@ -6024,7 +6022,7 @@ input:focus:-ms-input-placeholder {
 	#owl-main .item,
 	#owl-main.height-md .item,
 	#owl-main.height-lg .item {
-		height: 495px;
+		height: 480px;
 	}
 	
 }

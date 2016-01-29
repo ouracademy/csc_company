@@ -1,25 +1,30 @@
 	
 		<!-- Bootstrap Core CSS -->
-		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
 		
 		<!-- Customizable CSS -->
-		<link href="assets/css/main.css" rel="stylesheet" data-skrollr-stylesheet>
-		<link href="assets/css/services.css" rel="stylesheet" data-skrollr-stylesheet>
-		<link href="assets/css/blue2.css" rel="stylesheet" title="Color">
-		<link href="assets/css/owl.carousel.css" rel="stylesheet">
-		<link href="assets/css/owl.transitions.css" rel="stylesheet">
-		<link href="assets/css/animate.min.css" rel="stylesheet">
+		<link href="{{asset('assets/css/main.css')}}" rel="stylesheet" data-skrollr-stylesheet>
+		<link href="{{asset('assets/css/services.css')}}" rel="stylesheet" data-skrollr-stylesheet>
+		<link href="{{asset('assets/css/blue2.css')}}" rel="stylesheet" title="Color">
+		<link href="{{asset('assets/css/owl.carousel.css')}}" rel="stylesheet">
+		<link href="{{asset('assets/css/owl.transitions.css')}}" rel="stylesheet">
+		<link href="{{asset('assets/css/animate.min.css')}}" rel="stylesheet">
+		
+		<!-- Estilos propios-->
+		<link href="{{asset('assets/css2/header2.css')}}" rel="stylesheet" data-skrollr-stylesheet>
+		<link href="{{asset('assets/css2/common.css')}}" rel="stylesheet" data-skrollr-stylesheet>
+
 		
 		<!-- Fonts -->
 		<link href="http://fonts.googleapis.com/css?family=Lato:400,900,300,700" rel="stylesheet">
 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic" rel="stylesheet">
 		
 		<!-- Icons/Glyphs -->
-		<link href="assets/fonts/fontello.css" rel="stylesheet">
-			<link href="assets/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+		<link href="{{asset('assets/fonts/fontello.css')}}" rel="stylesheet">
+		<link href="{{asset('assets/fonts/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
 		
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="assets/images/favicon.ico">
+		<link rel="shortcut icon" href="{{asset('assets/images/favicon.ico')}}">
 		
 		
 		<script>

@@ -37,12 +37,15 @@ header{
     font-size:13px;
 }
 
-
-
-/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a,*/
-/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:focus,*/
-/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:hover,*/
-/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:focus,*/
-/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:hover{*/
-/*    background-color: #fff;*/
-/*}*/
+.navbar-nav .dropdown-menu a:hover{
+    background:transparent;
+    color:white;
+}
+/* esto es para el menu colapsado*/
+.navbar-colapsado{
+    height:40px;
+    position:fixed;
+}
+.navbar-colapsado a{
+    font-size:14px;
+}

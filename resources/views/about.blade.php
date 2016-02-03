@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout') 
 @section('title','Nosotros')
 @section('content')
 @include('partials.jumbotron', ['imageURL' => 'assets/images/about/header.jpg',
@@ -9,65 +9,64 @@
 		<div class="row ">
 			<div class="col-md-4 ">
 				<div class="subtitle">
-				<h2>¿QUIÉNES SOMOS?</h2>	
+					<h2>¿QUIÉNES SOMOS?</h2>
 				</div>
 				<p class="text-small">Somos una empresa dedicada al comercio exterior con 5 años de experiencia en este rubro. Exportamos e Importamos diversos productos con valor agregado de Estados Unidos y Asia, además brindamos cursos y capacitaciones para emprendedores.</p>
 			</div>
 			<div class="col-md-8 ">
 				<div class="subtitle">
-				
-				<h2>¿POR QUÉ NOSOTROS?</h2>
-				<div>
-				<div class="media">
-					<div class="media-left pr-20">
-						<div class="icon_container_small">
-							<i class="fa fa-eye "></i>
-						</div>
-					</div>
-					<div class="media-body">
-						<h4 class="media-heading">Experiencia</h4> Somos una empresa dedicada al comercio exterior con 5 años de experiencia en este rubro.
-					</div>
-				</div>
-				<div class="media">
-					<div class="media-left pr-20">
-						<div class="icon_container_small">
-							<i class="fa fa-trophy "></i>
-						</div>
-					</div>
-					<div class="media-body">
-						<h4 class="media-heading">Diversidad </h4> Con nosotros las personas pueden importar diversos tipos de productos de Estados Unidos y países del Asia.
-					</div>
-				</div>
-				<div class="media">
-					<div class="media-left pr-20">
-						<div class="icon_container_small">
-							<i class="fa fa-money "></i>
-						</div>
-					</div>
-					<div class="media-body">
-						<h4 class="media-heading">Bajo costo</h4> Importar desde tan solo 150 soles.
-					</div>
-				</div>
 
+					<h2>¿POR QUÉ NOSOTROS?</h2>
+					<div class="media">
+						<div class="media-left pr-20">
+							<div class="icon_container_small">
+								<i class="fa fa-check "></i>
+							</div>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Experiencia</h4>
+							<p class="text-small">Somos una empresa dedicada al comercio exterior con 5 años de experiencia en este rubro.</p>
+						</div>
+					</div>
+					<div class="media">
+						<div class="media-left pr-20">
+							<div class="icon_container_small">
+								<i class="fa fa-check "></i>
+							</div>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Diversidad </h4>
+							<p class="text-small">Con nosotros las personas pueden importar diversos tipos de productos de Estados Unidos y países del Asia.</p>
+						</div>
+					</div>
+					<div class="media">
+						<div class="media-left pr-20">
+							<div class="icon_container_small">
+								<i class="fa fa-check "></i>
+							</div>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Bajo costo</h4> 
+							<p class="text-small">Importar desde tan solo 150 soles.</p>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-
-
-	</div>
 		</div>
 	</div>
 </section>
 <section id="team" class="section-gray">
 	<div class="container inner">
-	<div class="row">
-	<div class="col-md-8 col-sm-9 center-block text-center">
-	<header>
-		<h2>NUESTRO EQUIPO</h2>
-		<span class="divider"><span class="line"></span><span class="circle"></span><span class="line"></span></span>
-	</header>
-	</div><!-- /.col -->
-	</div><!-- /.row -->					
-	<div class="row inner-top-sm thumbs gap-md text-center">
+		<div class="row">
+			<div class="col-md-8 col-sm-9 center-block text-center">
+				<div class="section-title">
+                    <h2>Nuestro equipo</h2><span class="divider"><span class="line"></span><span class="circle"></span><span class="line"></span></span>
+                </div>
+			</div>
+			<!-- /.col -->
+		</div>
+		<!-- /.row -->
+		<div class="row inner-top-sm thumbs gap-md text-center">
 			<div class="col-sm-3"></div>
 			<div class="col-sm-6">
 				<div class="col-sm-6 thumb">
@@ -146,19 +145,22 @@
 	<div class="container inner">
 		<div class="row">
 			<div class="col-md-8 col-sm-9 center-block text-center">
-					<header>
-						<h2>NUESTRO CLIENTE</h2>
-						<span class="divider"><span class="line"></span><span class="circle"></span><span class="line"></span></span>
-					</header>
-			</div><!-- /.col -->
-		</div><!-- /.row -->
+				<div class="section-title">
+                    <h2>Nuestros clientes</h2><span class="divider"><span class="line"></span><span class="circle"></span><span class="line"></span></span>
+                </div>
+			</div>
+			<!-- /.col -->
+		</div>
+		<!-- /.row -->
 		<div class="row inner-top-sm ">
 			<div class="col-md-8 col-sm-9 center-block text-center ">
 				<div class="wrapper-img">
-				<img src="assets/images/about/clients/hakan-innovations.png" alt="">
-			    </div>
-			</div><!-- /.col -->
-		</div><!-- /.row -->
+					<img src="assets/images/about/clients/hakan-innovations.png" alt="">
+				</div>
+			</div>
+			<!-- /.col -->
+		</div>
+		<!-- /.row -->
 		<!-- /.row -->
 	</div>
 

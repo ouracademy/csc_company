@@ -17,17 +17,17 @@
 						<form method="POST" action="http://csc-trading.com/contact">
 							<div class="form-group">
 								<label for="name">Nombre (requerido)</label>
-							    <input type="text" name="name" id="name" class="form-control" aria-required="true" />
+							    <input type="text" name="name" id="name" class="form-control" required />
 							 </div>
 							
 							<div class="form-group">
 								<label for="email">E-mail (requerido)</label>
-							    <input type="email" name="email" id="email" class="form-control" aria-required="true"/>
+							    <input type="email" name="email" id="email" class="form-control" required/>
 							 </div>
 							
 							<div class="form-group">
 								<label for="message">Mensaje</label>
-								<textarea name="message" class="form-control" cols="40" rows="10" aria-required="true"></textarea>
+								<textarea name="message" class="form-control" cols="40" rows="10" required></textarea>
 							</div>
 							
 							<button type="submit" class="btn btn-default btn-submit">Enviar mensaje</button>

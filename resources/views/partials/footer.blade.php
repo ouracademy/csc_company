@@ -15,9 +15,9 @@
 						<h4>Mantente en contácto</h4>
 						<div class="social-network">
 							<ul class="social">
-								<li><a href="#"><i class="icon-s-facebook"></i></a></li>
-								<li><a href="#"><i class="icon-s-twitter"></i></a></li>
-								<li><a href="#"><i class="icon-s-linkedin"></i></a></li>
+								<li><a href="https://www.facebook.com/CSC-Company-375902149253397/?ref=ts&fref=ts"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 							</ul><!-- /.social -->
 						</div>
 						<p>Puede ponerse en contacto con nosotros en nuestras redes sociales. Envíenos sus dudas, consejos y quejas. Estaremos agradecidos con responderle y ofrecerle un mejor servicio.</p>

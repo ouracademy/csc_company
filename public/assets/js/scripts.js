@@ -152,7 +152,7 @@ $(document).ready(function () {
 		singleItem: true,
 		addClassActive: true,
         transitionStyle: "fade",
-        navigationText: ["<i class='icon-left-open-mini'></i>", "<i class='icon-right-open-mini'></i>"],
+        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
 			
     	afterInit: function() {
         	fadeIn();
@@ -226,7 +226,7 @@ $(document).ready(function () {
 		addClassActive: true,
 		autoHeight: true,
 		transitionStyle: "fadeInAfterOut",
-		navigationText: ["<i class='icon-left-open-mini'></i>", "<i class='icon-right-open-mini'></i>"]
+		navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
 	});
 	
 	$("#owl-projects").owlCarousel({
@@ -667,7 +667,7 @@ $(document).ready(function () {
 		animation: "fade", // Fade, slide, none
 		animationInSpeed: 200, // Animation in speed (ms)
 		animationOutSpeed: 200, // Animation out speed (ms)
-		scrollText: "<i class='icon-up-open-mini'></i>", // Text for element, can contain HTML
+		scrollText: "<i class='fa fa-chevron-up'></i>", // Text for element, can contain HTML
 		scrollTitle: " ", // Set a custom <a> title if required. Defaults to scrollText
 		scrollImg: 0, // Set true to use image
 		activeOverlay: 0, // Set CSS color to display scrollUp active point, e.g "#00FFFF"

@@ -6,15 +6,15 @@ a:focus,
 .meta a:hover,
 .meta li.categories:hover:before,
 .more:hover,
-.navbar.basic .nav > li > a:hover,
-.navbar.basic .nav > li > a:focus,
-.navbar.basic .nav .open > a,
-.navbar.basic .nav .open > a:hover,
-.navbar.basic .nav .open > a:focus,
-.navbar .dropdown-menu:not(.yamm-dropdown-menu) li a:hover,
-.navbar .dropdown-menu:not(.yamm-dropdown-menu) li a.active,
+/*.navbar.basic .nav > li > a:hover,*/
+/*.navbar.basic .nav > li > a:focus,*/
+/*.navbar.basic .nav .open > a,*/
+/*.navbar.basic .nav .open > a:hover,*/
+/*.navbar.basic .nav .open > a:focus,*/
+/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) li a:hover,*/
+/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) li a.active,*/
 .navbar-header .info a:hover,
-.nav > li > a:hover,
+/*.nav > li > a:hover,*/
 .owl-carousel:hover .owl-next:hover,
 .owl-carousel:hover .owl-prev:hover,
 .panel-title > a:hover,
@@ -36,12 +36,12 @@ ul.circled li:before,
 
 .btn,
 .classic-blog .post .date,
-.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a,
-.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:focus,
-.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:hover,
-.navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:focus,
-.navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:hover,
-.navbar .dropdown-submenu:focus > a,
+/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a,*/
+/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:focus,*/
+/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:hover,*/
+/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:focus,*/
+/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:hover,*/
+/*.navbar .dropdown-submenu:focus > a,*/
 .navbar .dropdown-submenu:hover > a,
 .owl-pagination .owl-page.active span,
 .owl-pagination .owl-page:hover span,
@@ -72,14 +72,15 @@ ul.circled li:before,
 .pagination > .active > span:hover,
 .pagination > li > a:hover,
 .pagination > li > a:focus {
-	background-color: #17A78B;
+	background-color: #1C3B72;
 }
 
 .icon-overlay a .icn-more,
 .items li .text-overlay,
 .owl-carousel .item .text-overlay,
 .thumbs .thumb .text-overlay {
-	background-color:  rgba(214, 217, 247, 0.9);
+	background-color: rgba(49, 52, 80, 0.35);
+    opacity: 0.1;
 }
 
 .classic-blog .post .date,
@@ -115,9 +116,9 @@ ul.circled li:before,
 }
 
 ::selection {
-	background: #AAF2E4; /* Safari */
+	background: #506A85; /* Safari */
 }
 
 ::-moz-selection {
-	background: #AAF2E4; /* Firefox */
+	background: #506A85; /* Firefox */
 }

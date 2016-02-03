@@ -4,14 +4,13 @@
 		
 		<!-- Customizable CSS -->
 		<link href="{{asset('assets/css/main.css')}}" rel="stylesheet" data-skrollr-stylesheet>
-		<link href="{{asset('assets/css/services.css')}}" rel="stylesheet" data-skrollr-stylesheet>
 		<link href="{{asset('assets/css/blue2.css')}}" rel="stylesheet" title="Color">
 		<link href="{{asset('assets/css/owl.carousel.css')}}" rel="stylesheet">
 		<link href="{{asset('assets/css/owl.transitions.css')}}" rel="stylesheet">
 		<link href="{{asset('assets/css/animate.min.css')}}" rel="stylesheet">
 		
 		<!-- Estilos propios-->
-		<link href="{{asset('assets/css2/header2.css')}}" rel="stylesheet" data-skrollr-stylesheet>
+		<link href="{{asset('assets/css2/header.css')}}" rel="stylesheet" data-skrollr-stylesheet> 
 		<link href="{{asset('assets/css2/common.css')}}" rel="stylesheet" data-skrollr-stylesheet>
 
 		
@@ -20,8 +19,12 @@
 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic" rel="stylesheet">
 		
 		<!-- Icons/Glyphs -->
-		<link href="{{asset('assets/fonts/fontello.css')}}" rel="stylesheet">
-		<link href="{{asset('assets/fonts/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
+		<link href="{{asset('assets/fonts/icon moom/style.css')}}" rel="stylesheet">
+		<link href="{{asset('assets/fonts/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+		
+		<!-- font Open Sans -->
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300' rel='stylesheet' type='text/css'>
+
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="{{asset('assets/images/favicon.ico')}}">

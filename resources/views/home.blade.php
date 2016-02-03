@@ -1,7 +1,11 @@
 @extends('layout')
-@section('title','Inicio')
-@section('content')
+@section('title','Inicio') 
+@section('head')
+    <link href="{{asset('assets/css/home/services.css')}}" rel="stylesheet" data-skrollr-stylesheet>
+    <link href="{{asset('assets/css/home/features.css')}}" rel="stylesheet" data-skrollr-stylesheet>	
+@endsection
 
+@section('content')
 <section id="hero">
     <div id="owl-main" class="owl-carousel height-md owl-inner-nav owl-ui-lg">
 
@@ -9,7 +13,7 @@
             <div class="container">
                 <div class="caption vertical-center text-center">
 
-                    <h1 class="fadeInDown-1 light-color">Importar es el camino</h1>
+                    <h1 class="fadeInDown-1 light-color ">Importar es el camino</h1>
                     <p class="fadeInDown-2 light-color">
                         Importa de Estados Unidos, Japón, China y Corea.
                         <br> Compra productos a precio de fábrica y sé tu propio jefe.
@@ -25,7 +29,7 @@
             </div>
             <!-- /.container -->
         </div>
-        
+
 
         <div class="item" style="background-image: url(assets/images/slider/2.jpg);">
             <div class="container">
@@ -43,7 +47,7 @@
             </div>
             <!-- /.container -->
         </div>
-       
+
 
         <div class="item" style="background-image: url(assets/images/slider/3.jpg);">
             <div class="container">
@@ -61,17 +65,17 @@
             </div>
             <!-- /.container -->
         </div>
-     
+
     </div>
 </section>
 
 <section id="services">
-    <div class="container inner">
+    <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <div class="feature-box">
-                    <div class="icon_container">
-                        <i class="fa fa-truck "></i>
+                    <div class="icon_wrapper">
+                        <span class="icon-truck2"></span>
                     </div>
 
                     <h4><a href="#">Importación</a></h4>
@@ -81,8 +85,8 @@
             <div class="col-md-4">
                 <div class="feature-box">
 
-                    <div class="icon_container">
-                        <i class="fa fa-globe "></i>
+                    <div class="icon_wrapper">
+                        <span class="icon-world"></span>
                     </div>
                     <h4><a href="#">Exportación</a></h4>
                     <p>Exportamos productos no tradicionales a Estados Unidos, Europa y Asia.</p>
@@ -91,8 +95,8 @@
             </div>
             <div class="col-md-4">
                 <div class="feature-box">
-                    <div class="icon_container">
-                        <i class="fa fa-book "></i>
+                    <div class="icon_wrapper">
+                        <span class="icon-study"></span>
                     </div>
                     <h4><a href="#">Cursos y Capacitaciones</a></h4>
                     <p>Brindamos cursos y capacitaciones para emprendedores.</p>
@@ -115,9 +119,12 @@
             <!-- /.col -->
 
             <div class="col-sm-6 inner-top-xs inner-left-xs">
-                <h2>¿POR QUÉ NOSOTROS?</h2>
+                <div class="section-title">
+                    <h2>¿Por qué nosotros?</h2><span class="divider"><span class="line"></span><span class="circle"></span><span class="line"></span></span>
+                </div>
                 <h3>Experiencia, diversidad de productos y precio competitivo</h3>
-                <p>Somos una empresa dedicada al comercio exterior con 5 años de experiencia en este rubro. Con nosotros las personas pueden importar diversos tipos de productos de Estados Unidos y países del Asia desde tan solo 150 soles.</p>
+                <p>Somos una empresa dedicada al comercio exterior con 5 años de experiencia en este rubro.
+                Con nosotros las personas pueden importar diversos tipos de productos de Estados Unidos y países del Asia desde tan solo 150 soles.</p>
                 <a href="{{url('about')}}" class="txt-btn btn btn-large">Conócenos</a>
 
             </div>
@@ -133,111 +140,80 @@
     <!-- /.container -->
 </section>
 
-<section id="features">
+<section id="features" class="section-gray">
     <div class="container inner">
 
         <div class="row">
             <div class="col-md-8 col-sm-9 center-block text-center">
-                <header>
-                    <h2>CARACTERISTICAS</h2>
-
-                </header>
+                <div class="section-title">
+                    <h2>Nuestras características</h2><span class="divider"><span class="line"></span><span class="circle"></span><span class="line"></span></span>
+                </div>
             </div>
             <!-- /.col -->
         </div>
         <!-- /.row -->
 
-        <div class="row inner-top-sm">
-
-            <div class="col-md-1">
-                <div class="icon pull-right">
-                    <i class="fa fa-server fa-2x"></i>
+        <div class="container">
+            <div class="col-sm-6">
+                <div class="feature">
+                    <dl class="dl-horizontal">
+                        <dt><i class="icon-params"></i></dt>
+                        <dd>
+                            <h4>Eficiencia</h4>
+                            <p>Brindamos un servicio de logística integral que nos permite que los productos importados lleguen a sus manos.</p>
+                        </dd>
+                    </dl>
                 </div>
-                <!-- /.icon -->
-            </div>
-            <!-- /.col -->
-
-            <div class="col-md-3 inner-bottom-xs">
-                <h4>Eficiencia</h4>
-                <p class="text-small">Brindamos un servicio de logística integral que nos permite que los productos importados lleguen a sus manos.</p>
-            </div>
-            <!-- /.col -->
-
-            <div class="col-md-1">
-                <div class="icon pull-right">
-                    <i class="fa fa-shopping-cart fa-2x"></i>
+                <div class="feature">
+                    <dl class="dl-horizontal">
+                        <dt><i class="icon-shop"></i></dt>
+                        <dd>
+                            <h4><a href="#">Diversidad de productos</a></h4>
+                            <p>Importamos una gran variedad de productos como ropa, calzados, joyerias, gadgets técnologicos, entre otros.</p>
+                        </dd>
+                    </dl>
                 </div>
-                <!-- /.icon -->
-            </div>
-            <!-- /.col -->
-
-            <div class="col-md-3 inner-bottom-xs">
-                <h4>Diversidad de productos</h4>
-                <p class="text-small">Importamos una gran variedad de productos como ropa, calzados, joyerias, gadgets técnologicos, entre otros.</p>
-            </div>
-            <!-- /.col -->
-
-            <div class="col-md-1">
-                <div class="icon pull-right">
-                    <i class="fa fa-money fa-2x"></i>
+                <div class="feature">
+                    <dl class="dl-horizontal"> <dt>        <i class="icon-banknote"></i>    </dt>
+                        <dd>
+                            <h4><a href="#">Precios competitivos</a></h4>
+                            <p>Ofrecemos productos a precio de fábrica, siendo este un precio competitivo que el del mercado.</p>
+                        </dd>
+                    </dl>
                 </div>
-                <!-- /.icon -->
             </div>
-            <!-- /.col -->
 
-            <div class="col-md-3 inner-bottom-xs">
-                <h4>Precios competitivos</h4>
-                <p class="text-small">Ofrecemos productos a precio de fábrica, siendo este un precio competitivo que el del mercado.</p>
+            <div class="col-sm-6">
+                <div class="feature">
+                    <dl class="dl-horizontal"> <dt>        <i class="icon-user"></i>    </dt>
+                        <dd>
+                            <h4><a href="#">Equipo profesional</a></h4>
+                            <p>Contamos con personal de primer nivel que atenderá todas sus solicitudes.</p>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="feature">
+                    <dl class="dl-horizontal"> <dt>        <i class="icon-news"></i>    </dt>
+                        <dd>
+                            <h4><a href="#">Garantía</a></h4>
+                            <p>Garantizamos que los productos que usted importe cumpla con todos los requisitos de aduanas.</p>
+                        </dd>
+                    </dl>
+                </div>
             </div>
-            <!-- /.col -->
-
         </div>
-        <!-- /.row -->
-        <div class="row inner-top-sm">
-
-            <div class="col-md-1">
-                <div class="icon pull-right">
-                    <i class="fa fa-users fa-2x"></i>
-                </div>
-                <!-- /.icon -->
-            </div>
-            <!-- /.col -->
-
-            <div class="col-md-3 inner-bottom-xs">
-                <h4>Equipo profesional</h4>
-                <p class="text-small">Contamos con personal de primer nivel que atenderá todas sus solicitudes.</p>
-            </div>
-            <!-- /.col -->
-
-            <div class="col-md-1">
-                <div class="icon pull-right">
-                    <i class="fa fa-file-text fa-2x"></i>
-                </div>
-                <!-- /.icon -->
-            </div>
-            <!-- /.col -->
-
-            <div class="col-md-3 inner-bottom-xs">
-                <h4>Garantia</h4>
-                <p class="text-small">Garantizamos que los productos que usted importe cumpla con todos los requisitos de aduanas.</p>
-            </div>
-            <!-- /.col -->
-
-        </div>
-        <!-- /.row -->
-
     </div>
     <!-- /.container -->
 </section>
 
-<section id="testimonials" class="light-bg img-bg-softer" style="background-image: url(assets/images/art/pattern-background01.jpg);">
+<section id="testimonials">
     <div class="container inner">
 
         <div class="row">
             <div class="col-md-8 col-sm-9 center-block text-center">
-                <header>
-                    <h2>¿QUE DICEN NUESTROS CLIENTES?</h2>
-                </header>
+               <div class="section-title">
+                    <h2>¿Qué dicen nuestros clientes?</h2><span class="divider"><span class="line"></span><span class="circle"></span><span class="line"></span></span>
+                </div>
             </div>
             <!-- /.col -->
         </div>
@@ -288,15 +264,16 @@
     <!-- /.container -->
 </section>
 
-<section id="clients">
+<section id="clients" class="section-gray">
     <div class="container inner">
 
         <div class="row">
             <div class="col-md-8 col-sm-9 center-block text-center">
-                <header>
-                    <h2>NUESTROS AUSPICIADORES</h2>
-                    <p>Hemos sido entrevistados y promocionados por diferentes organizaciones.</p>
-                </header>
+                <div class="section-title">
+                    <h2>Nuestros auspiciadores</h2><span class="divider"><span class="line"></span><span class="circle"></span><span class="line"></span></span>
+                </div>
+                <p>Hemos sido entrevistados y promocionados por diferentes organizaciones.</p>
+
             </div>
             <!-- /.col -->
         </div>
@@ -305,39 +282,31 @@
         <div class="row inner-top-sm">
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
-                <div class="col-sm-12">
-
-                    <div class="col-sm-4">
-                        <a href="http://www.capital.com.pe/">
-                            <div class="partner">
-                                <img src="assets/images/partners/radio-capital.png" alt="Radio Capital">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="http://www.radiosanborja.com/">
-                            <div class="partner">
-                                <img src="assets/images/partners/radio-san-borja.png" alt="Radio San Borja">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="http://www.sumatealexito.com/">
-                            <div class="partner">
-                                <img src="assets/images/partners/sumate-al-exito.png" alt="Súmate al éxito">
-                            </div>
-                        </a>
-                    </div>
-
-
-
+                <div class="col-sm-4">
+                    <a href="http://www.capital.com.pe/">
+                        <div class="partner">
+                            <img src="assets/images/partners/radio-capital.png" alt="Radio Capital">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="http://www.radiosanborja.com/">
+                        <div class="partner">
+                            <img src="assets/images/partners/radio-san-borja.png" alt="Radio San Borja">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="http://www.sumatealexito.com/">
+                        <div class="partner">
+                            <img src="assets/images/partners/sumate-al-exito.png" alt="Súmate al éxito">
+                        </div>
+                    </a>
                 </div>
                 <!-- /.owl-carousel -->
             </div>
             <!-- /.col -->
         </div>
-        <div class="col-sm-2"></div>
-
     </div>
     <!-- /.row -->
 

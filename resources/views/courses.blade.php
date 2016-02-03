@@ -1,13 +1,10 @@
-@extends('layout') @section('title','Cursos y capataciones') @section('content')
-<section class="header-img" style="background-image : url(/public/assets/images/courses/header.jpg);">
-	<div class="overlay-header" style="background:rgba(0, 0, 0, 0.75"></div>
-		<div class="col-sm-10 center-block text-center ">
-    		<header>
-    		<h1>CURSOS Y CAPACITACIONES</h1>
-    		<p>Capacítate con nosotros y emprende</p>
-    		</header>
-		</div>
-</section>
+@extends('layout') 
+@section('title','Cursos y capataciones') 
+@section('content')
+
+@include('partials.jumbotron', ['imageURL' => '/public/assets/images/courses/header.jpg',
+								'title' => 'Cursos y capacitaciones' ,
+								'phrase' => 'Capacítate con nosotros y emprende'])
 
 <section class="section-gray">
 	<div class="container">

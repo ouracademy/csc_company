@@ -1,23 +1,14 @@
 @extends('layout')
 @section('title','Importación')
 @section('content')
-<section class="header-img" style="background-image : url(/public/assets/images/import/header.jpg);">
-	<div class="overlay-header" style="background:rgba(0, 0, 0, 0.75"></div>
-		<div class="col-sm-10 center-block text-center ">
-    		<header>
-    		<h1>IMPORTACION</h1>
-    		<p>Importar es el camino</p>
-    			<div class="buttons animated colors-light align-center fadeIn" data-animation="fadeIn">
-			<a href="{{url('services/import/catalog')}}" class="blue txt-btn btn btn-large ">Nuestros productos</a>
-		</div>
-    		</header>
-		</div>
-		
-		
-</section>
-
-
-<section>
+@include('partials.jumbotron', ['imageURL' => '/public/assets/images/import/header.jpg',
+								'title' => 'Importación' ,
+								'phrase' => 'Importar es el camino',
+								'button'	=> [
+									'link'	=> 'services/import/catalog',
+									'title'	=>'NUESTROS PRODUCTOS'
+								]])
+								
 	<div class="container inner">
 		<div class="row inner-top-sm">
 

@@ -1,9 +1,30 @@
+p{
+    font-size:13px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #777777;
+}
+
+/*===================================================================================*/
+/*	SECTION : LINES
+/*===================================================================================*/
+/* subtitle */
+.section-title {
+    margin-bottom:35px;
+}
+
+.section-title h2 {
+    text-transform: uppercase;
+    line-height: 38px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
 .divider {
     width: 208px;
     position: absolute;
     left: 50%;
     margin-left: -104px;
-    margin-top: 10px;
 }
 
 .divider .line {
@@ -12,7 +33,6 @@
     background: #ccc;
     float: left;
 }
-
 .divider .circle {
     width: 10px;
     height: 10px;
@@ -22,7 +42,21 @@
     margin-right: 8px;
     margin-top: -5px;
 }
+/* title*/
 
+.wrap-line{
+    text-align:center;
+    margin :auto;
+}
+.wrap-line hr{
+    margin : 1em auto;
+    border: 2px solid white;
+    outline: 0px none;  
+    width:20px;
+}
+/*===================================================================================*/
+/*	SECTION : COLORS
+/*===================================================================================*/
 .section-gray {
     padding-top: 0px;
     background-color: #f5f5f5;
@@ -31,6 +65,9 @@
     padding-top: 0px;
     background-color: white;
 }
+/*===================================================================================*/
+/*	SECTION : HEADER WITH IMAGE
+/*===================================================================================*/
 
 .header-img
 {
@@ -44,47 +81,11 @@
         background-attachment: fixed;
             background-repeat: no-repeat;
     background-size: cover;
-
-
     position: relative;
     float: none;
     z-index: 0;
     padding-top:200px;
-    
-    
-    
 }
-.header-img .titles{
-    float: left;
-    width: 100%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    padding-top: 120px;
-}
-
-.header-title{
-      color:white;
-      font-style: normal;
-}
-.header-img .titles h1{
-
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 20px;
-}
-/*FOR IMAGES */
-.bordered {
-    border: 1px solid #DFE1E4;
-    border-bottom-width: 2px;
-    border-radius: 3px;
-    padding: 25px;
-    background: WHITE;
-}
-/*header image*/
 .overlay-header{
     position: absolute;
     left: 0;
@@ -93,7 +94,23 @@
     height: 100%;
 }
 
-/*catalog*/
+.header-title h1{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 48px;
+}
+
+.header-title p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+/*===================================================================================*/
+/*	SECTION : CATALOG
+/*===================================================================================*/
+
 .items li img {
     display: block;
     width: 100%;
@@ -107,6 +124,7 @@
     border: 1px solid #ffffff;
     background: #FFFFFF;
     height:90px;
+    padding-top:9px;
 }
 
 .bordered .info h3 a, .bordered .info h4 a {
@@ -114,9 +132,7 @@
 }
 
 
-/*
-tabs of catalog
-*/
+/* tabs of catalog*/
 .filter li a, .format-filter li a {
     padding: 0 15px;
     background-color: #B5B9C1;
@@ -129,7 +145,6 @@ tabs of catalog
     color:#222;
     background-color: #F5F5F5;
 }
-
 
 
 
@@ -184,5 +199,60 @@ tabs of catalog
 	color: #FFF;
 	border: 1px solid #1ABB9C;
 }
+/*===================================================================================*/
+/*	SECTION : PARTNERS
+/*===================================================================================*/
+
+.partner{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+   
+}
+.partner > img{
+    position:relative;
+    width: 170px;
+    height: 60px;
+}
+
+/*===================================================================================*/
+/*	SECTION : CLIENT
+/*===================================================================================*/
+
+.wrapper-img{
+    height:140px;
+    width:100%;
+}
+.wrapper-img img{
+    height:100%;
+    width:140px;
+  
+}
+
+
+.subtitle h2{
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-style: normal;
+    color: #222;
+}
+
+
+.icon_container_small{
+    background: #1E2245;
+    height:30px;
+    width:30px;
+    border-radius: 90%;
+    margin-top:4px;
+    padding-top:1px;
+    padding-left:7px;
+}
+.icon_container_small i{
+    color: white;
+}
+
 
 

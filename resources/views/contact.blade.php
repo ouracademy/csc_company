@@ -1,15 +1,9 @@
 @extends('layout') 
 @section('title','Contáctenos')
 @section('content')
-<section class="header-img" style="background-image : url(/public/assets/images/contact/header.jpg);">
-		<div class="overlay-header" style="background:rgba(0, 0, 0, 0.75"></div>
-		<div class="col-sm-10 center-block text-center ">
-    		<header>
-	    		<h1>Contáctenos</h1>
-	    		<p>Dejenos su mensaje</p>
-    		</header>
-		</div>
-</section>
+@include('partials.jumbotron', ['imageURL' => '/public/assets/images/contact/header.jpg',
+								'title' => 'Contáctenos' ,
+								'phrase' => 'Déjenos su mensaje'])
 <section>
 	<div class="container inner">
 		<div>

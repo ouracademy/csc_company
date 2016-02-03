@@ -1,28 +1,23 @@
 @extends('layout')
 @section('title','Nosotros')
 @section('content')
-<section class="header-img" style="background-image: url(assets/images/about/header.jpg);">
-<div class="overlay-header" style="background:rgba(0, 0, 0, 0.75"></div>
-		<div class="col-sm-10 center-block text-center ">
-    		<header>
-    		<h1>NOSOTROS</h1>
-    		</header>
-		</div>
-</section>
-
+@include('partials.jumbotron', ['imageURL' => 'assets/images/about/header.jpg',
+								'title' => 'Nosotros' ,
+								'phrase' => 'Una innovadora empresa de comercio exterior'])
 <section class="we">
 	<div class="container inner">
-		<div class="row inner-top-sm">
-
-			<div class="col-md-4 inner-bottom-sm">
-				<h2>¿QUIÉNES SOMOS?</h2>
+		<div class="row ">
+			<div class="col-md-4 ">
+				<div class="subtitle">
+				<h2>¿QUIÉNES SOMOS?</h2>	
+				</div>
 				<p class="text-small">Somos una empresa dedicada al comercio exterior con 5 años de experiencia en este rubro. Exportamos e Importamos diversos productos con valor agregado de Estados Unidos y Asia, además brindamos cursos y capacitaciones para emprendedores.</p>
-
 			</div>
-			<!-- /.col -->
-
-			<div class="col-md-8 inner-bottom-sm">
+			<div class="col-md-8 ">
+				<div class="subtitle">
+				
 				<h2>¿POR QUÉ NOSOTROS?</h2>
+				<div>
 				<div class="media">
 					<div class="media-left pr-20">
 						<div class="icon_container_small">
@@ -46,7 +41,7 @@
 				<div class="media">
 					<div class="media-left pr-20">
 						<div class="icon_container_small">
-							<i class="fa fa-usd "></i>
+							<i class="fa fa-money "></i>
 						</div>
 					</div>
 					<div class="media-body">
@@ -59,6 +54,8 @@
 
 
 	</div>
+		</div>
+	</div>
 </section>
 <section id="team" class="section-gray">
 	<div class="container inner">
@@ -70,7 +67,7 @@
 	</header>
 	</div><!-- /.col -->
 	</div><!-- /.row -->					
-		<div class="row inner-top-sm thumbs gap-md text-center">
+	<div class="row inner-top-sm thumbs gap-md text-center">
 			<div class="col-sm-3"></div>
 			<div class="col-sm-6">
 				<div class="col-sm-6 thumb">
@@ -81,8 +78,8 @@
 							<div class="text-overlay">
 								<div class="info">
 									<ul class="social">
-										<li><a href="https://www.facebook.com/antonick.narvaez?fref=ts"><i class="icon-s-facebook"></i></a></li>
-										<li><a href="https://plus.google.com/109516996763533219907"><i class="icon-s-gplus"></i></a></li>
+										<li><a href="https://www.facebook.com/antonick.narvaez?fref=ts"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="https://plus.google.com/109516996763533219907"><i class="fa fa-google-plus"></i></a></li>
 									</ul>
 									<!-- /.social -->
 								</div>
@@ -113,7 +110,7 @@
 							<div class="text-overlay">
 								<div class="info">
 									<ul class="social">
-										<li><a href="https://www.facebook.com/anthony.talaveraramos?fref=ts"><i class="icon-s-facebook"></i></a></li>
+										<li><a href="https://www.facebook.com/anthony.talaveraramos?fref=ts"><i class="fa fa-facebook"></i></a></li>
 									</ul>
 									<!-- /.social -->
 								</div>
@@ -156,8 +153,10 @@
 			</div><!-- /.col -->
 		</div><!-- /.row -->
 		<div class="row inner-top-sm ">
-			<div class="col-md-8 col-sm-9 center-block text-center">
-				<figure><img src="assets/images/about/clients/hakan-innovations.png" alt=""></figure>
+			<div class="col-md-8 col-sm-9 center-block text-center ">
+				<div class="wrapper-img">
+				<img src="assets/images/about/clients/hakan-innovations.png" alt="">
+			    </div>
 			</div><!-- /.col -->
 		</div><!-- /.row -->
 		<!-- /.row -->

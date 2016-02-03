@@ -1,0 +1,48 @@
+header{
+    width:80%;
+    background:#fff;
+    margin:auto;
+    /*margin-top:20px;*/
+    margin-bottom:-20px;
+}
+
+.navbar-nav{
+    float:right;
+    padding-bottom:0px;
+    padding-top:0px;
+    height:100%;
+}
+.navbar #logo{
+    height:50px;
+}
+.navbar-nav> ul >li{
+    height:100%;
+    border-top:3px solid rgba(255,255,255,.15);
+}
+
+.navbar-nav> li:hover{
+    border-top:3px solid #1B3B71;
+}
+.navbar-nav >li a{
+    display:block;
+    margin:15px;
+    font-size:14px;
+    text-transform:uppercase;
+}
+.dropdown-menu{
+    background:rgba(30,30,30,1);
+}
+.navbar-nav .dropdown-menu a{
+    color:white;
+    font-size:13px;
+}
+
+
+
+/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a,*/
+/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:focus,*/
+/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:hover,*/
+/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:focus,*/
+/*.navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:hover{*/
+/*    background-color: #fff;*/
+/*}*/

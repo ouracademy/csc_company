@@ -1,7 +1,19 @@
+#contactenos .form-group{
+    font-size:70%;
+    font-weight:normal;
+    color:gray;
+}
+#contactenos ul li,
+#contactenos ul li a
+{
+    font-size:80%;
+    color:gray;
+}
+
 #contactenos h1
 {
-    font-size:105%;
     text-transform:uppercase;
+    font-size:105%;
     color:black;
     letter-spacing:2px;
 }

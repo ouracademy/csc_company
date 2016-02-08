@@ -5,7 +5,7 @@ namespace App;
 
 class Message {
     
-    const ORGANIZATION_EMAIL = 'qpdian@gmail.com';
+    const ORGANIZATION_EMAIL = 'amd11dot4@gmail.com';
     public $name;
     public $email;
     public $text;

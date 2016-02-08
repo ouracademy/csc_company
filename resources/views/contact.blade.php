@@ -11,7 +11,7 @@
 				<div>
 					<div>
 						<h1>Contáctenos</h1>
-						<h2>Para ofrecerle un mejor servicio</h2>
+						<!--<h2>Para ofrecerle un mejor servicio</h2>-->
 					</div>
 					<div>
 						@include('partials.message')
@@ -66,11 +66,4 @@
 		</div>
 	</div>
 </section>
-@endsection
-@section('scripts')
-<script>
-    $(document).ready(function(){
-        $( "#contact" ).addClass( "active" );
-    });
-</script>
 @endsection

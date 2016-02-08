@@ -67,3 +67,10 @@
 	</div>
 </section>
 @endsection
+@section('scripts')
+<script>
+    $(document).ready(function(){
+        $( "#contact" ).addClass( "active" );
+    });
+</script>
+@endsection

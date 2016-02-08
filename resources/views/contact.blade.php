@@ -4,7 +4,7 @@
 @include('partials.jumbotron', ['imageURL' => '/public/assets/images/contact/header.jpg',
 								'title' => 'Contáctenos' ,
 								'phrase' => 'Déjenos su mensaje'])
-<section>
+<section id="contactenos">
 	<div class="container inner">
 		<div>
 			<div class="col-sm-8">
@@ -14,24 +14,30 @@
 						<h2>Para ofrecerle un mejor servicio</h2>
 					</div>
 					<div>
-						<form method="POST" action="http://csc-trading.com/contact">
+						@include('partials.message')
+						@include('partials.errors')
+						
+						{!! Form::open(['url' => 'contact']) !!}
 							<div class="form-group">
-								<label for="name">Nombre (requerido)</label>
-							    <input type="text" name="name" id="name" class="form-control" required />
+								{!! Form::label('name', 'Nombre (requerido)')!!}
+								{!! Form::text('name', null, ['class'=>'form-control', 'required' => 'true'])!!}
 							 </div>
 							
 							<div class="form-group">
-								<label for="email">E-mail (requerido)</label>
-							    <input type="email" name="email" id="email" class="form-control" required/>
+								{!! Form::label('email', 'E-mail (requerido)')!!}
+								{!! Form::email('email', null, ['class'=>'form-control', 'required' => 'true'])!!}
 							 </div>
 							
 							<div class="form-group">
-								<label for="message">Mensaje</label>
-								<textarea name="message" class="form-control" cols="40" rows="10" required></textarea>
+								{!! Form::label('message', 'Mensaje (requerido)')!!}
+								{!! Form::textarea('message', null, ['class'	=>'form-control',
+																	  'required'=> 'true',
+																	  'cols'	=> '10',
+																	  'rows'	=> '10'])!!}
 							</div>
 							
 							<button type="submit" class="btn btn-default btn-submit">Enviar mensaje</button>
-						</form>
+						{!! Form::close() !!}
 					</div>
 				</div>
 			</div>
@@ -50,8 +56,8 @@
 						<li><i class="icon-mobile contact"></i>
 							(01) 739-1242
 						</li>
-						<li><a href="mailto:ventas.csccompany@gmail.com">
-							<i class="icon-mail-1 contact"></i>ventas.csccompany@gmail.comm</a>
+						<li><i class="icon-mail contact"></i>
+							<a href="mailto:ventas.csccompany@gmail.com">ventas.csccompany@gmail.com</a>
 						</li>
 					</ul>
 					
@@ -60,4 +66,11 @@
 		</div>
 	</div>
 </section>
+@endsection
+@section('scripts')
+<script>
+    $(document).ready(function(){
+        $( "#contact" ).addClass( "active" );
+    });
+</script>
 @endsection

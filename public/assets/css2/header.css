@@ -1,51 +1,179 @@
 header{
+    width:100%;
+    background:white;
+    /*margin-bottom:-20px;*/
+    z-index:1000;
+    height:90px;
+    position:relative;
+}
+
+header #loco{
+    display:none;
+    position:relative;
+    margin-top:20px;
+}
+.navbar{
     width:80%;
     background:#fff;
-    margin:auto;
-    /*margin-top:20px;*/
     margin-bottom:-20px;
+    z-index:1000;
+    margin-left:10%;
+    margin-right:10%;
 }
 
 .navbar-nav{
     float:right;
     padding-bottom:0px;
     padding-top:0px;
-    height:100%;
 }
 .navbar #logo{
-    height:50px;
+    height:58px;
 }
-.navbar-nav> ul >li{
-    height:100%;
-    border-top:3px solid rgba(255,255,255,.15);
+
+.navbar .responsive-menu{
+    display:none;
+    background:transparent;
+    border:none;
+    box-shadow:none;
+}
+
+.navbar .responsive-menu span{
+    color:#1B3B71;
+    font-size:30px;
+}
+
+.navbar-nav .active{
+    border-top:3px solid #1B3B71;
+}
+
+.navbar-nav > li{
+    border-top:3px solid rgba(0,0,0,0);
 }
 
 .navbar-nav> li:hover{
     border-top:3px solid #1B3B71;
 }
+
 .navbar-nav >li a{
     display:block;
     margin:15px;
     font-size:14px;
     text-transform:uppercase;
 }
-.dropdown-menu{
-    background:rgba(30,30,30,1);
+
+.navbar-nav .dropdown:hover .dropdown-menu2 {
+    display:block;
+    transition:all ease 0.8s;
 }
-.navbar-nav .dropdown-menu a{
+.dropdown-menu2{
+    background:rgba(30,30,30,1);
+    display:none;
+    position:absolute;
+    z-index:2000;
+}
+
+.navbar-nav .dropdown-menu2 a{
     color:white;
     font-size:13px;
 }
 
-.navbar-nav .dropdown-menu a:hover{
+.navbar-nav .dropdown-menu2 a:hover{
     background:transparent;
     color:white;
 }
-/* esto es para el menu colapsado*/
-.navbar-colapsado{
-    height:40px;
-    position:fixed;
+
+
+
+
+.menu-principal-fixed{
+	position: fixed;
+	top:-50px;
+	transition:All ease-in-out 0.7s;
+	margin-top: 50px;
+	box-shadow:5px 3px 5px rgba(0, 0, 0, 0.5);
+	height:72px;
 }
-.navbar-colapsado a{
-    font-size:14px;
+.menu-principal-fixed #logo{
+    height:50px;
+    width:70px;
+}
+ .menu-principal-fixed .navbar{
+    height:62px;
+    transition:All ease-in-out 0.7s;
+    vertical-align:middle;
+}
+ 
+
+.menu-principal-fixed .navbar .dropdown-menu2{
+   top:65px;
+}
+
+#loco{
+    display:none;
+}
+/*esto es para el menu responsive*/
+@media (max-width: 1024px) {
+
+
+.header_menu1{
+        margin-left:10%;
+        margin-right:10%;
+}
+.navbar .header_menu1 a{
+    vertical-align:middle;
+    display:inline-block;
+}
+.navbar .header_menu1 #logo{
+    margin-right:-80%;
+    float:right;
+}
+
+.navbar-nav{
+    display:none;
+}
+
+.menu-principal-fixed #loco{
+   margin-top:30px;
+}
+
+	#loco {
+	    background:rgba(32,32,32,1);
+	    width:100%;
+	    /*margin-top:30px;*/
+	    border:none;
+	    padding-top:20px;
+	    padding-left:8%;
+	    padding-bottom:10px;
+	    z-index:5000;
+	}
+      #loco li{
+        display:block;
+        border:none;
+        line-height:190%;
+    }	
+	#loco a {
+	    color:white;
+	    font-size:13px;
+	    font-weight:bold;
+	    text-align:left;
+	    letter-spacing:1.5px;
+	}
+
+
+    #loco ul ul> li a{
+       color:gray;
+       font-size:12.5px;
+       font-weight:normal;
+    }
+}
+
+@media (max-width:600px){
+    .header_menu1 a{
+    margin-right:0px;
+    
+    }
+    .header_menu1 #logo{
+    float:left;
+    
+    }
 }

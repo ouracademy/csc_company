@@ -1,0 +1,14 @@
+#contactenos h1
+{
+    font-size:105%;
+    text-transform:uppercase;
+    color:black;
+    letter-spacing:2px;
+}
+#contactenos{
+    background:rgba(245,245,245,1);
+    padding-top:-80px;
+    padding-left:9%;
+    padding-right:9%;
+  
+}

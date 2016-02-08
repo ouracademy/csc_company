@@ -15,3 +15,9 @@
 <script src="{{asset('assets/js/viewport-units-buggyfill.js')}}"></script>
 <script src="{{asset('assets/js/scripts.js')}}"></script>
 <script src="{{asset('switchstylesheet/switchstylesheet.js')}}"></script>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>-->
+
+<!--/*el js para el efecto del menu*/-->
+<script src="{{asset('assets/js/menu.js')}}"></script>
+<script src="{{asset('assets/js/menu2.js')}}"></script>

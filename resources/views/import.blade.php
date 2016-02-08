@@ -14,7 +14,7 @@
 
 			<div class="col-md-4 inner-bottom-sm">
 				<h2 class="sub-title">IMPORTACION</h2>
-				<p class="text-small">Brindamos el servicio de outsourcing en importación, esto permitirá que el producto llegue a sus manos sin necesidad que usted este pendiente de su mercaderia.</p>
+				<p>Brindamos el servicio de outsourcing en importación, esto permitirá que el producto llegue a sus manos sin necesidad que usted este pendiente de su mercaderia.</p>
 
 			</div>
 			<!-- /.col -->
@@ -66,11 +66,14 @@
 
 		<div class="row">
 			<div class="col-md-8 col-sm-9 center-block text-center">
-				<header>
-					<h2>PASOS PARA IMPORTAR</h2>
-					<span class="divider"><span class="line"></span><span class="circle"></span><span class="line"></span></span>
-
-				</header>
+				<div class="section-title">
+                    <h2>Pasos para importar</h2>
+                    <span class="divider">
+                    	<span class="line"></span>
+                    	<span class="circle"></span>
+                    	<span class="line"></span>
+                    </span>
+                </div>
 			</div>
 			<!-- /.col -->
 		</div>
@@ -194,4 +197,11 @@
 </section>
 
 
+@endsection
+@section('scripts')
+<script>
+    $(document).ready(function(){
+        $( "#services" ).addClass( "active" );
+    });
+</script>
 @endsection

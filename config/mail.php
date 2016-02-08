@@ -54,7 +54,12 @@ return [
     |
     */
 
-    'from' => ['address' => null, 'name' => null],
+    /*
+     Laravel Default
+    'from' => ['address' => null, 'name' => null],*/
+
+	'from' => ['address' => env('MAIL_FROM'), 'name' => env('MAIL_NAME')],
+
 
     /*
     |--------------------------------------------------------------------------

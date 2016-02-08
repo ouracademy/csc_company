@@ -19,8 +19,9 @@
                         <br> Compra productos a precio de fábrica y sé tu propio jefe.
 
                     </p>
-                    <div class="fadeInDown-3">
-                        <a href="{{url('services/import')}}" class="btn btn-large">Empieza ahora</a>
+                    <div class="wrap">
+                        <a href="{{url('services/import')}}" class="btn-header btn-large">
+                            <span>Empieza ahora </span></a>
                     </div>
                     <!-- /.fadeIn -->
 
@@ -37,8 +38,9 @@
 
                     <h1 class="fadeInLeft-1 light-color">CONQUISTA AL MUNDO EXPORTANDO</h1>
                     <p class="fadeInLeft-2 light-color">Exportamos productos no tradicionales a Estados Unidos,Europa y Asia.</p>
-                    <div class="fadeInLeft-3">
-                        <a href="{{url('services/export')}}" class="btn btn-large">Empieza ahora</a>
+                       <div class="wrap">
+                        <a href="{{url('services/import')}}" class="btn-header btn-large">
+                            <span>Empieza ahora </span></a>
                     </div>
                     <!-- /.fadeIn -->
 
@@ -55,8 +57,9 @@
 
                     <h1 class="fadeInRight-1  light-color"><span>CAPACITATE CON NOSOTROS Y EMPRENDE</span></h1>
                     <p class="fadeInRight-2 light-color">Brindamos cursos y capacitaciones para emprendedores.</p>
-                    <div class="fadeInRight-3">
-                        <a href="{{url('services/courses')}}" class="btn btn-large">Empieza ahora</a>
+                    <div class="wrap">
+                        <a href="{{url('services/import')}}" class="btn-header btn-large">
+                            <span>Empieza ahora </span></a>
                     </div>
                     <!-- /.fadeIn -->
 
@@ -112,9 +115,11 @@
 
         <div class="row">
 
-            <div class="col-sm-6 inner-right-xs text-right">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Nopu_yjM6iY" frameborder="0" allowfullscreen="">
-                </iframe>
+            <div class="col-sm-6">
+                <div class="media">
+                    <iframe src="https://www.youtube.com/embed/Nopu_yjM6iY" width="560" height="315"
+                    frameborder="0" allowfullscreen=""></iframe>
+                </div>
             </div>
             <!-- /.col -->
 
@@ -125,7 +130,7 @@
                 <h3>Experiencia, diversidad de productos y precio competitivo</h3>
                 <p>Somos una empresa dedicada al comercio exterior con 5 años de experiencia en este rubro.
                 Con nosotros las personas pueden importar diversos tipos de productos de Estados Unidos y países del Asia desde tan solo 150 soles.</p>
-                <a href="{{url('about')}}" class="txt-btn btn btn-large">Conócenos</a>
+                <a href="{{url('about')}}" class="txt-btn btn">Conócenos</a>
 
             </div>
             <!-- /.col -->
@@ -270,10 +275,14 @@
         <div class="row">
             <div class="col-md-8 col-sm-9 center-block text-center">
                 <div class="section-title">
-                    <h2>Nuestros auspiciadores</h2><span class="divider"><span class="line"></span><span class="circle"></span><span class="line"></span></span>
+                    <h2>Nuestros auspiciadores</h2>
+                    <span class="divider">
+                        <span class="line"></span>
+                        <span class="circle"></span>
+                        <span class="line"></span>
+                    </span>
+                    <p>Hemos sido entrevistados y promocionados por diferentes organizaciones.</p>
                 </div>
-                <p>Hemos sido entrevistados y promocionados por diferentes organizaciones.</p>
-
             </div>
             <!-- /.col -->
         </div>
@@ -314,4 +323,11 @@
     <!-- /.container -->
 </section>
 
+@endsection
+@section('scripts')
+<script>
+    $(document).ready(function(){
+        $( "#home" ).addClass( "active" );
+    });
+</script>
 @endsection

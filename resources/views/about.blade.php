@@ -11,7 +11,11 @@
 				<div class="subtitle">
 					<h2>¿QUIÉNES SOMOS?</h2>
 				</div>
-				<p class="text-small">Somos una empresa dedicada al comercio exterior con 5 años de experiencia en este rubro. Exportamos e Importamos diversos productos con valor agregado de Estados Unidos y Asia, además brindamos cursos y capacitaciones para emprendedores.</p>
+				<p>Somos una empresa dedicada al comercio exterior con 5 años de
+				experiencia en este rubro.</p> 
+				<p>Exportamos e Importamos diversos productos con valor agregado
+				de Estados Unidos y Asia, además brindamos cursos y 
+				capacitaciones para emprendedores.</p>
 			</div>
 			<div class="col-md-8 ">
 				<div class="subtitle">
@@ -25,7 +29,7 @@
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading">Experiencia</h4>
-							<p class="text-small">Somos una empresa dedicada al comercio exterior con 5 años de experiencia en este rubro.</p>
+							<p>Somos una empresa dedicada al comercio exterior con 5 años de experiencia en este rubro.</p>
 						</div>
 					</div>
 					<div class="media">
@@ -36,7 +40,7 @@
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading">Diversidad </h4>
-							<p class="text-small">Con nosotros las personas pueden importar diversos tipos de productos de Estados Unidos y países del Asia.</p>
+							<p>Con nosotros las personas pueden importar diversos tipos de productos de Estados Unidos y países del Asia.</p>
 						</div>
 					</div>
 					<div class="media">
@@ -47,7 +51,7 @@
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading">Bajo costo</h4> 
-							<p class="text-small">Importar desde tan solo 150 soles.</p>
+							<p>Importar desde tan solo 150 soles.</p>
 						</div>
 					</div>
 				</div>
@@ -165,4 +169,11 @@
 	</div>
 
 </section>
+@endsection
+@section('scripts')
+<script>
+    $(document).ready(function(){
+        $( "#about" ).addClass( "active" );
+    });
+</script>
 @endsection

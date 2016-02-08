@@ -14,8 +14,6 @@
 Route::get('/', 'HomeController@home');
 Route::get('home', 'HomeController@home');
 Route::get('about', 'HomeController@about');
-Route::get('contact', 'ContactController@getContact');
-Route::post('contact', 'ContactController@postContact');
 
 Route::group(['prefix' => 'services'], function () {
     Route::get('all', 'ServicesController@home');
@@ -39,5 +37,6 @@ Route::group(['prefix' => 'services'], function () {
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+    Route::get('contact', 'ContactController@getContact');
+    Route::post('contact', 'ContactController@postContact');
 });

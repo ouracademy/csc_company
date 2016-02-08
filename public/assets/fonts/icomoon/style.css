@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?3p8a2l');
-    src:    url('fonts/icomoon.eot?3p8a2l#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?3p8a2l') format('truetype'),
-        url('fonts/icomoon.woff?3p8a2l') format('woff'),
-        url('fonts/icomoon.svg?3p8a2l#icomoon') format('svg');
+    src:    url('fonts/icomoon.eot?psy0jj');
+    src:    url('fonts/icomoon.eot?psy0jj#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?psy0jj') format('truetype'),
+        url('fonts/icomoon.woff?psy0jj') format('woff'),
+        url('fonts/icomoon.svg?psy0jj#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +24,30 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-person_pin_circle:before {
+    content: "\e56a";
+}
+.icon-menu:before {
+    content: "\e5d2";
+}
+.icon-list:before {
+    content: "\e896";
+}
+.icon-view_headline:before {
+    content: "\e8ee";
+}
+.icon-reorder:before {
+    content: "\e8fe";
+}
+.icon-fingerprint:before {
+    content: "\e959";
+}
+.icon-motorcycle:before {
+    content: "\e95a";
+}
+.icon-pan_tool:before {
+    content: "\e95b";
+}
 .icon-heart:before {
     content: "\e900";
 }

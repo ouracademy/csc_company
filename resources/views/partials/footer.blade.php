@@ -27,7 +27,7 @@
 		  
 			<div class="footer-bottom">
 				<div class="container inner">
-					<p class="pull-left">@2016 CSC Company - Diseñado por <a href="https://www.facebook.com/Ouracademy-661881453944170/?fref=ts">Ouracademy</a>, grupo de artesanos de software</p>
+					<p class="pull-left">@2015 - {{date('Y')}} CSC Company - Diseñado por <a href="https://www.facebook.com/Ouracademy-661881453944170/?fref=ts">Ouracademy</a>, grupo de artesanos de software</p>
 					<ul class="footer-menu pull-right">
 						<li><a href="{{url('home')}}">Inicio</a></li>
 						<li><a href="{{url('about')}}">Nosotros</a></li>

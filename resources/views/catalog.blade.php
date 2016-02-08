@@ -54,3 +54,10 @@
 	<br><br>
 </section>
 @endsection
+@section('scripts')
+<script>
+    $(document).ready(function(){
+        $( "#services" ).addClass( "active" );
+    });
+</script>
+@endsection

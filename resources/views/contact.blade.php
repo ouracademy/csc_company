@@ -50,7 +50,7 @@
 					<ul class="contacts">
 						<li><i class="icon-location contact"></i>
 							Centro Empresarial Link Tower<br>
-							Av. Manuel Olguín 335, Oficinena 1205<br>
+							Av. Manuel Olguín 335, Oficina 1205<br>
 							Surco, Lima - Perú
 						</li>
 						<li><i class="icon-mobile contact"></i>

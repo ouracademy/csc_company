@@ -39,7 +39,7 @@
                     <h1 class="fadeInLeft-1 light-color">CONQUISTA AL MUNDO EXPORTANDO</h1>
                     <p class="fadeInLeft-2 light-color">Exportamos productos no tradicionales a Estados Unidos,Europa y Asia.</p>
                        <div class="wrap">
-                        <a href="{{url('services/import')}}" class="btn-header btn-large">
+                        <a href="{{url('services/export')}}" class="btn-header btn-large">
                             <span>Empieza ahora </span></a>
                     </div>
                     <!-- /.fadeIn -->
@@ -58,7 +58,7 @@
                     <h1 class="fadeInRight-1  light-color"><span>CAPACITATE CON NOSOTROS Y EMPRENDE</span></h1>
                     <p class="fadeInRight-2 light-color">Brindamos cursos y capacitaciones para emprendedores.</p>
                     <div class="wrap">
-                        <a href="{{url('services/import')}}" class="btn-header btn-large">
+                        <a href="{{url('services/courses')}}" class="btn-header btn-large">
                             <span>Empieza ahora </span></a>
                     </div>
                     <!-- /.fadeIn -->

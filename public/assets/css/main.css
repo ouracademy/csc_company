@@ -3060,8 +3060,7 @@ blockquote:before {
 			background-size: cover;
 }
 #owl-main.height-md .item {
-	/*height: 60vh;*/
-	height: 90vh;
+	height: 60vh;
 }
 #owl-main.height-lg .item {
 	height: 90vh;
